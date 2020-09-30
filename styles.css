@@ -1,9 +1,9 @@
 body {
     background: transparent;
-    color: #000000;
+    color: #color;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
-    letter-spacing: 2px;
+    font-size: 17px;
+    letter-spacing: 1px;
 }
 
 img {
@@ -11,8 +11,8 @@ img {
   }
 
   .profile-picture {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     display: block;
     margin: 35px auto 5px auto;
     border-radius: 50%;   
@@ -44,6 +44,7 @@ margin-right: 10px;
 .links {
   background-color: #c7c6c6;
   opacity: 0.666666;
+  transition: 0.5s;
 }
 
 .links:hover , .links:active{
